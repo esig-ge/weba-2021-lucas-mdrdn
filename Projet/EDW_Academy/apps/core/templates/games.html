@@ -3,7 +3,12 @@
 
 {% block nom %} Games | {% endblock %}
 
-{% block extrahead %}<link rel="stylesheet" href="{% static 'games.css' %}">{% endblock %}
+{% block extrahead %}
+
+    <link rel="stylesheet" href="{% static 'games.css' %}">
+    <script src="{% static 'games/gamesDescription.js'%}"></script>
+
+{% endblock %}
 
 {% block content %}
 
@@ -20,6 +25,9 @@
         </div>
         <div class="GamesDescription">
             <p>League of Legends est un jeu dans lequel on voit s'affronter deux équipes de 5 joueurs en temps réel dans des parties d'une durée d'environ une demi-heure, chaque équipe occupant et défendant sa propre base sur la carte.</p>
+        </div>
+        <div class="popup" onclick="myFunction()">Click me!
+            <span class="popuptext" id="myPopup">Popup text...</span>
         </div>
         <div class="TheCoaches">
             <p>THE COACHES</p>
