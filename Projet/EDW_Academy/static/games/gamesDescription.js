@@ -1,6 +1,13 @@
-<script>
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
+function afficherTextLol(){
+    return 'asélkdfhésalkfjélsakdfjlaskdf'
 }
-</script>
+
+function allerChercherPopup(e){
+    return e.classList.toggle("show")
+}
+
+function afficherPopup(e){
+    var button = document.getElementById("moreButton")
+    button.addEventListener('click', e)
+}
+

@@ -6,7 +6,7 @@
 {% block extrahead %}
 
     <link rel="stylesheet" href="{% static 'games.css' %}">
-    <script src="{% static 'games/gamesDescription.js'%}"></script>
+    <script src="{% static 'games/gamesDescription.js' %}"></script>
 
 {% endblock %}
 
@@ -26,9 +26,13 @@
         <div class="GamesDescription">
             <p>League of Legends est un jeu dans lequel on voit s'affronter deux équipes de 5 joueurs en temps réel dans des parties d'une durée d'environ une demi-heure, chaque équipe occupant et défendant sa propre base sur la carte.</p>
         </div>
-        <div class="popup" onclick="myFunction()">Click me!
-            <span class="popuptext" id="myPopup">Popup text...</span>
-        </div>
+
+        <button id="moreButton" onclick="allerChercherPopup(afficherTextLol())">Click Me!</button>
+
+{#        <div class="popup" onclick="afficherPopup(allerChercherPopup())">Click me!#}
+{#            <span class="popup text" id="myPopup">Popup text...</span>#}
+{#        </div>#}
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -194,4 +198,6 @@
 {% endblock %}
 
 {% block scripts %}
+
+
 {% endblock %}
