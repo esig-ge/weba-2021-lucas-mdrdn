@@ -6,6 +6,7 @@
 {% block extrahead %}
 
     <link rel="stylesheet" href="{% static 'games.css' %}">
+    <link rel="stylesheet" href="{% static 'games/gamesDescription.css' %}">
     <script src="{% static 'games/gamesDescription.js' %}"></script>
 
 {% endblock %}
@@ -27,11 +28,12 @@
             <p>League of Legends est un jeu dans lequel on voit s'affronter deux équipes de 5 joueurs en temps réel dans des parties d'une durée d'environ une demi-heure, chaque équipe occupant et défendant sa propre base sur la carte.</p>
         </div>
 
-        <button id="moreButton" onclick="allerChercherPopup(afficherTextLol())">Click Me!</button>
+        <div class="popup" onclick="test2(test1())">Click me to toggle the popup!
+            <span class="popuptext" id="myPopup">A Simple Popup!</span>
+        </div>
+{##}
+{#        <button id="moreButton" onclick="afficherPopup(allerChercherPopup(afficherTextLol()))">Click Me!</button>#}
 
-{#        <div class="popup" onclick="afficherPopup(allerChercherPopup())">Click me!#}
-{#            <span class="popup text" id="myPopup">Popup text...</span>#}
-{#        </div>#}
 
         <div class="TheCoaches">
             <p>THE COACHES</p>
@@ -199,5 +201,12 @@
 
 {% block scripts %}
 
+{#    <script>#}
+{#// When the user clicks on div, open the popup#}
+{#function myFunction() {#}
+{#  var popup = document.getElementById("myPopup");#}
+{#  popup.classList.toggle("show");#}
+{#}#}
+{#</script>#}
 
 {% endblock %}
