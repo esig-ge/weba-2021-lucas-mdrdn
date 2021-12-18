@@ -3,5 +3,5 @@ function getPopup(e){
 }
 
 function showPopup(a){
-    a.classList.toggle("show")
+    a.classList.toggle("show");
 }
