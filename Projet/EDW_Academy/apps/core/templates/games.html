@@ -28,12 +28,9 @@
             <p>League of Legends est un jeu dans lequel on voit s'affronter deux équipes de 5 joueurs en temps réel dans des parties d'une durée d'environ une demi-heure, chaque équipe occupant et défendant sa propre base sur la carte.</p>
         </div>
 
-        <div class="popup" onclick="test2(test1())">Click me to toggle the popup!
-            <span class="popuptext" id="myPopup">A Simple Popup!</span>
+        <div class="popup" onclick="showPopup(getPopup('myPopupLOL'))">Click me to see the current players of the pro team.
+            <span class="popuptext" id="myPopupLOL">Theoloris, NowFin, Dontbanpls77, Yatok, Xeentore</span>
         </div>
-{##}
-{#        <button id="moreButton" onclick="afficherPopup(allerChercherPopup(afficherTextLol()))">Click Me!</button>#}
-
 
         <div class="TheCoaches">
             <p>THE COACHES</p>
@@ -64,6 +61,11 @@
         <div class="GamesDescription">
             <p>Rocket League est un jeu inspiré du football : deux équipes, composées de un à quatre joueurs conduisant des véhicules, s'affrontent au cours d'un match afin de frapper un ballon et de marquer dans le but adverse. Les voitures sont équipées de propulseurs (boost) et peuvent sauter, permettant de jouer le ballon dans les airs.</p>
         </div>
+
+        <div class="popup" onclick="showPopup(getPopup('myPopupRL'))">Click me to see the current players of the pro team.
+            <span class="popuptext" id="myPopupRL">Batou, Mirror, Zaphare</span>
+        </div>
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -93,6 +95,11 @@
         <div class="GamesDescription">
             <p>TrackMania est une franchise de jeux de course atypiques typés arcade qui proposent des pistes peu conventionnelles, avec des virages très relevés, des tremplins et des loopings.</p>
         </div>
+
+        <div class="popup" onclick="showPopup(getPopup('myPopupTM'))">Click me to see the current player of the pro team.
+            <span class="popuptext" id="myPopupTM">Mudda</span>
+        </div>
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -122,6 +129,11 @@
         <div class="GamesDescription">
             <p>Valorant est un jeu vidéo free-to-play de tir à la première personne en multijoueur développé et édité par Riot Games et sorti le 2 juin 2020.</p>
         </div>
+
+        <div class="popup" onclick="showPopup(getPopup('myPopupVALO'))">Click me to see the current players of the pro team.
+            <span class="popuptext" id="myPopupVALO">Konert, Mikee, NGY</span>
+        </div>
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -151,6 +163,11 @@
         <div class="GamesDescription">
             <p>Super Smash Bros Ultimate est un jeu qui met en scène des combats entre de nombreux personnages majoritairement issus de l'univers des jeux de la franchise Nintendo.</p>
         </div>
+
+        <div class="popup" onclick="showPopup(getPopup('myPopupSSBU'))">Click me to see the current players of the pro team.
+            <span class="popuptext" id="myPopupSSBU">Yannwatts, Espeo</span>
+        </div>
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -180,6 +197,11 @@
         <div class="GamesDescription">
             <p>Hearthstone est un jeu de cartes à collectionner en ligne, développé et édité par la société Blizzard Entertainment. C'est un jeu gratuit s'inspirant de l'univers de fiction médiéval-fantastique du jeu vidéo Warcraft développé par Blizzard.</p>
         </div>
+
+        <div class="popup" onclick="showPopup(getPopup('myPopupHS'))">Click me to see the current players of the pro team.
+            <span class="popuptext" id="myPopupHS">TheRabbin</span>
+        </div>
+
         <div class="TheCoaches">
             <p>THE COACHES</p>
         </div>
@@ -200,13 +222,5 @@
 {% endblock %}
 
 {% block scripts %}
-
-{#    <script>#}
-{#// When the user clicks on div, open the popup#}
-{#function myFunction() {#}
-{#  var popup = document.getElementById("myPopup");#}
-{#  popup.classList.toggle("show");#}
-{#}#}
-{#</script>#}
 
 {% endblock %}
