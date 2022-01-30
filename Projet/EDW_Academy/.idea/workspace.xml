@@ -17,12 +17,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,7 +53,101 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.games.html">
+    <configuration name="Test: apps.core.testsdir.test_models.TestUser" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="EDW_Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.core.testsdir.test_models.TestUser" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.core.testsdir.test_urls.TestUrls" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="EDW_Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.core.testsdir.test_urls.TestUrls" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.core.testsdir.test_urls.TestUrls.test_view_url_exists" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="EDW_Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.core.testsdir.test_urls.TestUrls.test_view_url_exists" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: apps.core.testsdir.test_vue.UsersListViewTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="EDW_Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="apps.core.testsdir.test_vue.UsersListViewTest" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="games.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EDW_Academy/apps/core/templates/games.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.games.html" />
+        <item itemvalue="Django tests.Test: apps.core.testsdir.test_models.TestUser" />
+        <item itemvalue="Django tests.Test: apps.core.testsdir.test_vue.UsersListViewTest" />
+        <item itemvalue="Django tests.Test: apps.core.testsdir.test_urls.TestUrls" />
+        <item itemvalue="Django tests.Test: apps.core.testsdir.test_urls.TestUrls.test_view_url_exists" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,10 +164,60 @@
       <workItem from="1639835812684" duration="136000" />
       <workItem from="1639835959686" duration="84000" />
       <workItem from="1639836052527" duration="29212000" />
+      <workItem from="1639932552448" duration="1133000" />
+      <workItem from="1641850667237" duration="138000" />
+      <workItem from="1642097753762" duration="756000" />
+      <workItem from="1642882111191" duration="1463000" />
+      <workItem from="1642946409926" duration="21000" />
+      <workItem from="1642946937359" duration="5249000" />
+      <workItem from="1642970566031" duration="1611000" />
+      <workItem from="1642973890467" duration="773000" />
+      <workItem from="1643029321298" duration="41513000" />
+      <workItem from="1643116163176" duration="14843000" />
+      <workItem from="1643135745166" duration="1235000" />
+      <workItem from="1643555712016" duration="8838000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_first_name_max_length_36_false.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_first_name_max_length_36_false Coverage Results" MODIFIED="1643053312240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest Coverage Results" MODIFIED="1643132390271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_first_name_max_length_36.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_first_name_max_length_36 Coverage Results" MODIFIED="1643119617117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_urls_TestUrls_test_view_url_exists.coverage" NAME="Test: apps.core.testsdir.test_urls.TestUrls.test_view_url_exists Coverage Results" MODIFIED="1643132368366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_is_major_false.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_is_major_false Coverage Results" MODIFIED="1643051307324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_uses_correct_template_true.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_uses_correct_template_true Coverage Results" MODIFIED="1643060047006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_first_name_char_less_than_36_refactor.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_first_name_char_less_than_36_refactor Coverage Results" MODIFIED="1643037072613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$test_models.coverage" NAME="test_models Coverage Results" MODIFIED="1643033085471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/core/tests" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_if_view_is_accessible_by_name_true.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_if_view_is_accessible_by_name_true Coverage Results" MODIFIED="1643055552496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_uses_correct_template_false.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_uses_correct_template_false Coverage Results" MODIFIED="1643060049854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_urls_TestUrls_test2.coverage" NAME="Test: apps.core.testsdir.test_urls.TestUrls.test2 Coverage Results" MODIFIED="1643061923662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_userprofile_tests_TestUser_testA.coverage" NAME="Test: apps.userprofile.tests.TestUser.testA Coverage Results" MODIFIED="1643037996858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_is_coach_false.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_is_coach_false Coverage Results" MODIFIED="1643045260438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_url_exists_false.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_url_exists_false Coverage Results" MODIFIED="1643118100742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_is_major.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_is_major Coverage Results" MODIFIED="1643131960204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_username_unique.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_username_unique Coverage Results" MODIFIED="1643121304881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_urls_TestUrls_test_url_uses_correct_view.coverage" NAME="Test: apps.core.testsdir.test_urls.TestUrls.test_url_uses_correct_view Coverage Results" MODIFIED="1643132288672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_first_name_max_length_35.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_first_name_max_length_35 Coverage Results" MODIFIED="1643131531424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_if_view_is_accessible_by_name_false.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_if_view_is_accessible_by_name_false Coverage Results" MODIFIED="1643121601115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_uses_correct_template.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_uses_correct_template Coverage Results" MODIFIED="1643132226675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_first_name_char_less_than_36.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_first_name_char_less_than_36 Coverage Results" MODIFIED="1643036422048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_testA.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.testA Coverage Results" MODIFIED="1643040364657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test2.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test2 Coverage Results" MODIFIED="1643069366249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_username_exists.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_username_exists Coverage Results" MODIFIED="1643132057224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_asdf.coverage" NAME="Test: apps.core.testsdir.test_models.asdf Coverage Results" MODIFIED="1643044294516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_is_coach.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_is_coach Coverage Results" MODIFIED="1643131698140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser Coverage Results" MODIFIED="1643560500950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$.coverage" NAME=" Coverage Results" MODIFIED="1643060917601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/core/testsdir" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_testC.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.testC Coverage Results" MODIFIED="1643039819243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_models_TestUser_test_if_user_is_major_refactor.coverage" NAME="Test: apps.core.testsdir.test_models.TestUser.test_if_user_is_major_refactor Coverage Results" MODIFIED="1643051494184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_urls_TestUrls_test_url_true.coverage" NAME="Test: apps.core.testsdir.test_urls.TestUrls.test_url_true Coverage Results" MODIFIED="1643122001342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_if_view_is_accessible_by_name.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_if_view_is_accessible_by_name Coverage Results" MODIFIED="1643132146096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_urls_TestUrls.coverage" NAME="Test: apps.core.testsdir.test_urls.TestUrls Coverage Results" MODIFIED="1643132386822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_url_exists_true.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_url_exists_true Coverage Results" MODIFIED="1643065476179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_tests_test_models_TestUser.coverage" NAME="Test: apps.core.tests.test_models.TestUser Coverage Results" MODIFIED="1643035552227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/EDW_Academy$Test__apps_core_testsdir_test_vue_UsersListViewTest_test_view_url_exists.coverage" NAME="Test: apps.core.testsdir.test_vue.UsersListViewTest.test_view_url_exists Coverage Results" MODIFIED="1643054604172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

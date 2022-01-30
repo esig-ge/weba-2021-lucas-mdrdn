@@ -2,6 +2,7 @@ from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 
 from EDW_Academy import settings
+from apps.userprofile.models import User
 from apps.core import forms
 from apps.eventcalendar.models import Camp, Module
 from apps.core.models import Game, Ticket
@@ -33,6 +34,11 @@ def camps(request):
 
 def games(request):
     return render(request, 'games.html')
+
+
+def users(request):
+    context = {'users': User.objects.all()}
+    return render(request, 'users.html', context)
 
 
 def courses(request):
@@ -117,3 +123,5 @@ def get_json_camp_data(request, *args, **kwargs):
     selected_game = kwargs.get('game')
     obj_camps = list(Camp.objects.filter(game__name=selected_game).values())
     return JsonResponse({'data': obj_camps})
+
+

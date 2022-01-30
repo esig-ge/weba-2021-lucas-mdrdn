@@ -31,7 +31,9 @@
                     base sur la carte.</p>
             </div>
 
-            <div id="test" class="popup" onclick="showPopup(getPopup('myPopupLOL'))">Click me to see the current players of the pro team.</div>
+{#            <div id="test" class="popup" onclick="showPopup(getPopup('myPopupLOL'))">Click me to see the current players of the pro team.</div>#}
+
+            <div id="test" >Click me to see the current players of the pro team.</div>
 
 
             <div class="TheCoaches">
@@ -242,15 +244,55 @@
 {% endblock %}
 
 {% block scripts %}
+{#    <script>#}
+{#        const popupSpan = document.createElement("span");#}
+{#        popupSpan.setAttribute("class", "popuptext");#}
+{#        popupSpan.setAttribute("id", "myPopupLOL");#}
+{##}
+{#        const textPopupSpanLOL = document.createTextNode("Theoloris, NowFin, Dontbanpls77, Yatok, Xeentore");#}
+{#        popupSpan.appendChild(textPopupSpanLOL);#}
+{##}
+{#        document.getElementById("test").appendChild(popupSpan);#}
+{##}
+{#    </script>#}
+
+{#    <script>#}
+{#        document.getElementById("test").addEventListener("click", showPopup("myPopupLOL"))#}
+{##}
+{##}
+{##}
+{##}
+{##}
+{##}
+{#        function showPopup(a){#}
+{#            const constPopupSpan = document.createElement("span");#}
+{#            constPopupSpan.setAttribute("class", "popuptext");#}
+{#            constPopupSpan.setAttribute("id", "myPopupLOL");#}
+{##}
+{#            const constTextPopupSpanLOL = document.createTextNode("Theoloris, NowFin, Dontbanpls77, Yatok, Xeentore");#}
+{#            constPopupSpan.appendChild(constTextPopupSpanLOL);#}
+{##}
+{#            document.getElementById("test").appendChild(constPopupSpan);#}
+{##}
+{#            document.getElementById(a).classList.toggle("show");#}
+{#        }#}
+{##}
+{##}
+{##}
+{##}
+{#    </script>#}
+
     <script>
-        const popupSpan = document.createElement("span");
-        popupSpan.setAttribute("class", "popuptext");
-        popupSpan.setAttribute("id", "myPopupLOL");
+    function gestionClick() {
+        const constPopupSpan = document.createElement("span");
+        constPopupSpan.setAttribute("class", "popuptext");
+        constPopupSpan.setAttribute("id", "myPopupLOL");
+        const popupText = document.createTextNode("Theoloris, NowFin, Dontbanpls77, Yatok, Xeentore")
+        constPopupSpan.appendChild(popupText)
+        document.getElementById("test").appendChild(constPopupSpan)
+    }
 
-        const textPopupSpanLOL = document.createTextNode("Theoloris, NowFin, Dontbanpls77, Yatok, Xeentore");
-        popupSpan.appendChild(textPopupSpanLOL);
-
-        document.getElementById("test").appendChild(popupSpan);
-
+    {#const firstdiv = document.getElementById("test");#}
+    document.getElementById("test").addEventListener("click", gestionClick)
     </script>
 {% endblock %}

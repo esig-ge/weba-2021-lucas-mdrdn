@@ -11729,7 +11729,7 @@ var FullCalendar = (function (exports) {
                 dragging.pointer.selector = settings.itemSelector;
             }
             if (settings.appendTo != null) {
-                dragging.mirror.parentNode = settings.appendTo; // TODO: write tests
+                dragging.mirror.parentNode = settings.appendTo; // TODO: write testsdir
             }
             dragging.emitter.on('pointerdown', this.handlePointerDown);
             dragging.emitter.on('dragstart', this.handleDragStart);

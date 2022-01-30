@@ -45,12 +45,10 @@ class UserChangeForm(forms.ModelForm):
         fields = ('username', 'first_name', 'last_name', 'email', 'birth_date', 'is_active', 'is_admin')
 
     def clean_password(self):
-
         return self.initial["password"]
 
 
 class UserAdmin(BaseUserAdmin):
-
     form = UserChangeForm
     add_form = UserCreationForm
 
@@ -77,6 +75,6 @@ class UserAdmin(BaseUserAdmin):
     filter_horizontal = ()
 
 
-admin.site.register(User, UserAdmin)
 
+admin.site.register(User, UserAdmin)
 admin.site.unregister(Group)
