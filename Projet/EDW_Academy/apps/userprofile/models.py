@@ -36,13 +36,13 @@ class UserManager(BaseUserManager):
         return user
 
 
-class Userss(AbstractBaseUser):
-    username = models.CharField(max_length=35, null=False)
-    first_name = models.CharField(max_length=35)
-    is_coach = models.BooleanField(default=False)
-    jour = models.IntegerField(default=1)
-    mois = models.IntegerField(default=1)
-    annee = models.IntegerField(default=1900)
+# class Userss(AbstractBaseUser):
+#     username = models.CharField(max_length=35, null=False)
+#     first_name = models.CharField(max_length=35)
+#     is_coach = models.BooleanField(default=False)
+#     jour = models.IntegerField(default=1)
+#     mois = models.IntegerField(default=1)
+#     annee = models.IntegerField(default=1900)
 
 
 
