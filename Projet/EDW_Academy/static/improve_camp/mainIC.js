@@ -17,9 +17,10 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 
 
 
-$.ajax({
-    type: 'GET',
-    url: '/games-json/',
+// $.ajax({
+//     type: 'GET',
+//     url: '/games-json/',
+
     success: function(response){
         console.log(response.data)
         const gamesData = response.data
@@ -34,7 +35,7 @@ $.ajax({
     error: function(error){
         console.log(error)
     }
-})
+// })
 
 gameInput.addEventListener('change', e=>{
     console.log(e.target.value)
