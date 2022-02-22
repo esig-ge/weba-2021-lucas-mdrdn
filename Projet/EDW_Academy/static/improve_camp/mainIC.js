@@ -22,8 +22,9 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 //     url: '/games-json/',
 function loaddoc() {
     const xhttp = new XMLHttpRequest();
-    xhttp.onload = function () {
-        console.log(JSON.parse(xhttp.response))
+    xhttp.onreadystatechange = function () {
+        if (this.readyState===4 && this.status===200){
+           console.log(JSON.parse(xhttp.response))
         const gamesData = JSON.parse(xhttp.response)
         for (let i = 0; i < gamesData['data'].length; i++) {
             console.log(gamesData['data'][i])
@@ -33,6 +34,8 @@ function loaddoc() {
             option.setAttribute('data-value', gamesData['data'][i].name)
             gamesDataBox.appendChild(option)
         }
+
+        }
         // gamesData.map(item => {
         //     const option = document.createElement('div')
         //     option.textContent = item.name
@@ -41,10 +44,11 @@ function loaddoc() {
         //     gamesDataBox.appendChild(option)
         // })
     }
-    xhttp.open('GET', '/games-json/', true);
+    xhttp.open('GET', '/games-json/');
     xhttp.send();
 }
 loaddoc()
+
     // error: function(error){
     //     console.log(error)
     // }
@@ -72,8 +76,8 @@ gameInput.addEventListener('change', e=>{
                 campsDataBox.appendChild(option)
             })
 
-            campInput.addEventListener('change', e=>{
-                btnBox.classList.remove('not-visible')})
+            // campInput.addEventListener('change', e=>{
+            //     btnBox.classList.remove('not-visible')})
         },
         error: function(error){
             console.log(error)
