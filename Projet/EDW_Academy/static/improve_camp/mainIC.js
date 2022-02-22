@@ -1,7 +1,7 @@
 const gameForm = document.getElementById('game-form')
 
 const gamesDataBox = document.getElementById('games-data-box')
-const gameInput = document.getElementById('games')
+const gameInput = document.getElementById('ab')
 
 const campsDataBox = document.getElementById('camps-data-box')
 const campInput = document.getElementById('camps')
@@ -20,23 +20,35 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 // $.ajax({
 //     type: 'GET',
 //     url: '/games-json/',
-
-    success: function(response){
-        console.log(response.data)
-        const gamesData = response.data
-        gamesData.map(item=>{
+function loaddoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function () {
+        console.log(JSON.parse(xhttp.response))
+        const gamesData = JSON.parse(xhttp.response)
+        for (let i = 0; i < gamesData['data'].length; i++) {
+            console.log(gamesData['data'][i])
             const option = document.createElement('div')
-            option.textContent = item.name
+            option.textContent = gamesData['data'][i].name
             option.setAttribute('class', 'item')
-            option.setAttribute('data-value', item.name)
+            option.setAttribute('data-value', gamesData['data'][i].name)
             gamesDataBox.appendChild(option)
-        })
-    },
-    error: function(error){
-        console.log(error)
+        }
+        // gamesData.map(item => {
+        //     const option = document.createElement('div')
+        //     option.textContent = item.name
+        //     option.setAttribute('class', 'item')
+        //     option.setAttribute('data-value', item.name)
+        //     gamesDataBox.appendChild(option)
+        // })
     }
+    xhttp.open('GET', '/games-json/', true);
+    xhttp.send();
+}
+loaddoc()
+    // error: function(error){
+    //     console.log(error)
+    // }
 // })
-
 gameInput.addEventListener('change', e=>{
     console.log(e.target.value)
     const selectedGame = e.target.value
