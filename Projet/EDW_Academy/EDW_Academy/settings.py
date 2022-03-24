@@ -36,6 +36,10 @@ AUTH_USER_MODEL = 'userprofile.User'
 
 LOGOUT_REDIRECT_URL = 'home'
 
+LOGIN_URL = 'login'
+
+SESSION_COOKIE_SECURE = True
+
 # Application definition
 
 INSTALLED_APPS = [
