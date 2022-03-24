@@ -106,7 +106,6 @@ def courses(request):
 def discover_camp(request):
     context = {'camps': Camp.objects.all()}
     print(Camp.objects.all())
-
     return render(request, 'discover_camp.html', context)
 
 
@@ -124,6 +123,7 @@ def get_json_game_data(request):
 def get_json_camp_data(request, *args, **kwargs):
     selected_game = kwargs.get('game')
     obj_camps = list(Camp.objects.filter(game__name=selected_game).values())
+    # time.sleep(3)
     return JsonResponse({'data': obj_camps})
 
 

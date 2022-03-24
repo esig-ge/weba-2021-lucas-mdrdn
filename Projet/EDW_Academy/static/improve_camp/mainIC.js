@@ -53,9 +53,9 @@ gameInput.addEventListener('change', e => {
                 for (let i = 0; i < campsData['data'].length; i++) {
                     console.log(campsData['data'][i])
                     const option = document.createElement('div')
-                    option.textContent = campsData['data'][i].start_date+" "+campsData['data'][i].end_date
+                    option.textContent = campsData['data'][i].start_date+" - "+campsData['data'][i].end_date
                     option.setAttribute('class', 'item')
-                    option.setAttribute('data-value', campsData['data'][i].start_date+" "+campsData['data'][i].end_date)
+                    option.setAttribute('data-value', campsData['data'][i].start_date+campsData['data'][i].end_date)
                     campsDataBox.appendChild(option)
                 }
             }
